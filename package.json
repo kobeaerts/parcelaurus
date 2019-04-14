@@ -10,7 +10,10 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.5.1",
+    "eslint": "^5.16.0",
     "parcel-bundler": "^1.12.3",
-    "sass": "^1.18.0"
+    "prettier": "^1.17.0",
+    "sass": "^1.18.0",
+    "stylelint": "^10.0.0"
   }
 }
