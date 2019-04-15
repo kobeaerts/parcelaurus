@@ -1,5 +1,9 @@
 {
-    "*.{js,jsx}": "eslint --fix",
-    "*.scss": "stylelint --syntax=scss --fix",
-    "*.{js,jsx,scss}": "prettier --write"
+    "concurrent": false,
+    "linters": {
+        "*.css": "stylelint --fix",
+        "*.scss": "stylelint --syntax=scss --fix",
+        "*.{js,jsx}": "eslint --fix",
+        "*.{js,jsx,scss}": "prettier --write"
+    }
 }
