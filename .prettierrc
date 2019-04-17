@@ -3,5 +3,13 @@
     "singleQuote": true,
     "jsxSingleQuote": false,
     "quoteProps": "consistent",
-    "trailingComma": "all"
+    "trailingComma": "all",
+    "overrides": [
+        {
+            "files": "*.scss",
+            "options": {
+                "singleQuote": false
+            }
+        }
+    ]
 }

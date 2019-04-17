@@ -4,6 +4,6 @@
         "*.css": "stylelint --fix",
         "*.scss": "stylelint --syntax=scss --fix",
         "*.{js,jsx}": "eslint --fix",
-        "*.{js,jsx,scss}": "prettier --write"
+        "*.{js,jsx,css,scss}": "prettier --write"
     }
 }
