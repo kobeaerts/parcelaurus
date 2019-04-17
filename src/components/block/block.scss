@@ -1,0 +1,16 @@
+@import "/scaffolding/index";
+
+.block {
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block + .block {
+    margin-top: $spacing-small;
+
+    @media (min-width: $breakpoint-tablet-small) {
+        margin-top: $spacing-medium;
+    }
+}

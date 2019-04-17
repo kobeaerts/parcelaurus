@@ -1,0 +1,43 @@
+@import "/scaffolding/index";
+
+.container {
+    width: 100%;
+    max-width: $page-max-width;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    &.is-horizontal {
+        padding-left: $spacing-small;
+        padding-right: $spacing-small;
+    }
+
+    &.is-vertical {
+        padding-top: $spacing-small;
+        padding-bottom: $spacing-small;
+    }
+
+    @media (min-width: $breakpoint-tablet-small) {
+        &.is-horizontal {
+            padding-left: $spacing-medium;
+            padding-right: $spacing-medium;
+        }
+
+        &.is-vertical {
+            padding-top: $spacing-medium;
+            padding-bottom: $spacing-medium;
+        }
+    }
+
+    @media (min-width: $breakpoint-desktop-small) {
+        &.is-horizontal {
+            padding-left: $spacing-large;
+            padding-right: $spacing-large;
+        }
+
+        &.is-vertical {
+            padding-top: $spacing-large;
+            padding-bottom: $spacing-large;
+        }
+    }
+}

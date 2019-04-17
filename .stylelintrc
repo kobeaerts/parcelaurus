@@ -1,6 +1,5 @@
 {
     "rules": {
-        "at-rule-no-unknown": true,
         "at-rule-no-vendor-prefix": true,
         "block-no-empty": true,
         "color-hex-length": "long",
